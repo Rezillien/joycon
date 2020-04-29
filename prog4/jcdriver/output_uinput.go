@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"joycon/prog4/jcpc"
-	"github.com/riking/joycon/prog4/output"
+	"joycon/prog4/output"
 )
 
 func getOutputFactory() jcpc.OutputFactory {

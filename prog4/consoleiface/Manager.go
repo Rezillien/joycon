@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/GeertJohan/go.hid"
-	"github.com/riking/joycon/prog4/controller"
+	"joycon/prog4/controller"
 	"joycon/prog4/jcpc"
-	"github.com/riking/joycon/prog4/joycon"
+	"joycon/prog4/joycon"
 )
 
 const maxControllerCount = 4

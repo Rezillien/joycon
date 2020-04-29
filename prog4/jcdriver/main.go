@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/riking/joycon/prog4/consoleiface"
+	"joycon/prog4/consoleiface"
 	"joycon/prog4/jcpc"
 )
 
