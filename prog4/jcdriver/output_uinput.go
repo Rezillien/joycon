@@ -5,7 +5,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/riking/joycon/prog4/jcpc"
+	"joycon/prog4/jcpc"
 	"github.com/riking/joycon/prog4/output"
 )
 

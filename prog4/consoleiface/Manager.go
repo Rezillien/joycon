@@ -9,7 +9,7 @@ import (
 
 	"github.com/GeertJohan/go.hid"
 	"github.com/riking/joycon/prog4/controller"
-	"github.com/riking/joycon/prog4/jcpc"
+	"joycon/prog4/jcpc"
 	"github.com/riking/joycon/prog4/joycon"
 )
 

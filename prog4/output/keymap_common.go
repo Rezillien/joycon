@@ -1,6 +1,6 @@
 package output
 
-import "github.com/riking/joycon/prog4/jcpc"
+import "joycon/prog4/jcpc"
 
 type commonKeyMap struct {
 	Button jcpc.ButtonID

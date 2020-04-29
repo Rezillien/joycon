@@ -11,7 +11,7 @@ import (
 	"github.com/godbus/dbus"
 	"github.com/godbus/dbus/introspect"
 	"github.com/pkg/errors"
-	"github.com/riking/joycon/prog4/jcpc"
+	"joycon/prog4/jcpc"
 )
 
 // JoyconAPI presents a manageable surface area for the rest of the code to

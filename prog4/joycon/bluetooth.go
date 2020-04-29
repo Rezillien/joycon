@@ -8,10 +8,9 @@ import (
 	"image/color"
 	"sync"
 	"time"
-
 	"github.com/GeertJohan/go.hid"
 	"github.com/pkg/errors"
-	"github.com/riking/joycon/prog4/jcpc"
+	"joycon/prog4/jcpc"
 )
 
 type joyconBluetooth struct {
@@ -51,6 +50,8 @@ type joyconBluetooth struct {
 
 	spiReads []spiReadCallback
 }
+
+
 
 func NewBluetooth(hidHandle *hid.Device, side jcpc.JoyConType, ui jcpc.Interface) (jcpc.JoyCon, error) {
 	var err error

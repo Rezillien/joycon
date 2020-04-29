@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/riking/joycon/prog4/jcpc"
+	"joycon/prog4/jcpc"
 )
 
 type one struct {
